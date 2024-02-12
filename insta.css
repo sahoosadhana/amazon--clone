@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+   background-color: #450f39;
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10px;
+    overflow: hidden;
+    position: relative;
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 60px;
+    padding-left: 30px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white
+}
+nav ul li a:hover{
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bolder;
+}
+.login-btn{
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    font-weight: 400;
+    
+}
+.login-btn:hover{
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bold;
+}
+.btn{
+    display: inline-block;
+    margin: 30px;
+    text-decoration: none;
+    padding: 14px 14px;
+    color: white;
+    background-image:linear-gradient(45deg, #df4881, #c430d7);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 40px;
+    border-radius: 30px;
+    border-top-left-radius: 0;
+    transition: 0.3s;
+}
+.btn:hover{
+    cursor: pointer;
+    font-size: larger;
+    border-top-left-radius: 30px;
+    font-weight: bolder;
+}
+.content{
+    margin-top: 9%;
+    max-width: 480px;
+    padding-left: 30px;
+    color: aliceblue;
+}
+.content h1{
+    font-size: 70px;
+}
+.content p{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    animation-delay: 0.7s;
+}
+.content .btn{
+    padding: 15px 80px;
+    font-size: 16px;
+    animation-delay: 1s;
+}
+.features{
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    padding-bottom: 30px;
+}
+
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+.features.anim{
+    animation-delay: 1.5s;
+}
+@keyframes moveup{
+    100%{
+        opacity: 2;
+        transform: translateY(0px);
+    }
+}

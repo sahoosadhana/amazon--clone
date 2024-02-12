@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #42455a;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background: #42455a;
+}
+
+.nav ul{
+    display: flex;
+    margin: 50px;
+}
+.nav ul li{
+    list-style: none;
+    margin: 0 40px;
+    color: white;
+}
+.nav ul li:hover{
+    cursor: pointer;
+    color: #19dafa !important;
+    
+}
+.logo span{
+    width: 40px;
+    margin-right: 48px;
+    margin: 0px 20px;
+    color: white;
+}
+.signup{
+    top: 40px;
+    right: 80px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    border-radius: 25px;
+    border: 5px solid transparent;
+    background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.signup span{
+    display: block;
+    padding: 8px 20px
+}
+.banner{
+    position: absolute;
+    height: 70%;
+    width: 80%;
+    top: 30%;
+    left: 100px;
+    color: white;
+}
+.apptext{
+    float: left;
+}
+.apptext h1{
+    font-size: 40px;
+    position: relative;
+    margin-left: 50px;
+    width: 640px;
+}
+.apptext p{
+    font-size: 20px;
+    margin: 30px 0px 30px 40px;
+    line-height: 25px;
+    padding: 13px;
+    color: #919191;
+}
+.pic{
+    float: right;
+    width: 50%;
+}
+.pic img{
+    width: 100%;
+    margin-top: -20px;
+    padding-left: 50px;
+    height: 100%;
+}

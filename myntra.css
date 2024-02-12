@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assitsant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,Helvetica, Arial,sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: white;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b6b1b1;
+}
+
+.myntralogo{
+    height: 36px;
+}
+.logo{
+    margin-left: 4%;
+}
+.actionbar{
+    margin-right: 4%;
+}
+.navbar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    color: #282c3f;
+    font-weight: 700;
+    padding: 28px 0;
+    border-bottom: 4px solid white;
+}
+.navbar a:hover{
+    border-bottom: 5px solid #f54e77;
+}
+.navbar a sup{
+    color: #ff3f6c;
+    font-size: 10px;
+}
+.searchbar{
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.searchicon{
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 3px 0 0 3px;
+}
+.searchinput{
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px  4px 0; /*lefttop rightop rightbottom leftbottom*/
+
+}
+.actionbar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-around;
+    
+}
+.actioncontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.actioncontainer a{
+    text-decoration: none;
+    color: black;
+}
+
+/*main section*/
+.banner_container{
+    margin: 40px 0;
+}
+.bannerimg{
+    width: 100%;
+}
+.category_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15rem;
+    font-size: 1.8rem;
+    margin: 5rem;
+    font-weight: 700;
+}
+.category_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sale1{
+    width: 250px;
+}
+
+.footercontainer{
+    padding: 30px 0 40px 0px;
+    background: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footercol{
+    display: flex;
+    flex-direction: column;
+
+}
+.footercol h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.footercol a{
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.copyright{
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
